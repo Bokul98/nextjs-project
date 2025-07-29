@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function ServiceDetailsPage({ params }) {
@@ -39,6 +40,7 @@ export default function ServiceDetailsPage({ params }) {
         <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full text-center">
           <h2 className="text-xl font-semibold text-red-500 mb-2">Service Not Found</h2>
           <p className="text-gray-600">Sorry, we couldn't find the service you are looking for.</p>
+          <Link className="btn-primary p-2 rounded-2xl text-black bg-amber-50" href="/">Go back to Home</Link>
         </div>
       </div>
     );

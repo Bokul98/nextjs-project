@@ -7,7 +7,7 @@ export default function DashboardLayout({ children }) {
         {/* Side Navbar */}
         <div className='col-span-3'>User Dashboard</div>
         {/* Main Content */}
-        <div className='col-span-9'>User Dashboard Content</div>
+        <div className='col-span-9'>{children}</div>
       </div>
     </div>
   )
